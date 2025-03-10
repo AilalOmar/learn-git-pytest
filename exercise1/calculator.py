@@ -66,3 +66,7 @@ def divide(a: Number, b: Number) -> Number:
     """
     # TODO: Implement this function
     pass
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
