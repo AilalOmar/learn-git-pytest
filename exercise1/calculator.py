@@ -6,63 +6,19 @@ Number = Union[int, float]
 
 
 def add(a: Number, b: Number) -> Number:
-    """
-    Return the sum of a and b.
-
-    Args:
-        a: First number
-        b: Second number
-
-    Returns:
-        The sum of a and b
-    """
-    # TODO: Implement this function
-    pass
-
+    """Returns the sum of two numbers."""
+    return a + b
 
 def subtract(a: Number, b: Number) -> Number:
-    """
-    Return the result of subtracting b from a.
-
-    Args:
-        a: First number
-        b: Second number
-
-    Returns:
-        The result of a - b
-    """
-    # TODO: Implement this function
-    pass
-
+    """Returns the difference of two numbers."""
+    return a - b
 
 def multiply(a: Number, b: Number) -> Number:
-    """
-    Return the product of a and b.
-
-    Args:
-        a: First number
-        b: Second number
-
-    Returns:
-        The product of a and b
-    """
-    # TODO: Implement this function
-    pass
-
+    """Returns the product of two numbers."""
+    return a * b
 
 def divide(a: Number, b: Number) -> Number:
-    """
-    Return the result of dividing a by b.
-
-    Args:
-        a: First number (dividend)
-        b: Second number (divisor)
-
-    Returns:
-        The result of a / b
-
-    Raises:
-        ValueError: If b is 0
-    """
-    # TODO: Implement this function
-    pass
+    """Returns the quotient of two numbers. Raises an error if dividing by zero."""
+    if b == 0:
+        raise ValueError("Cannot divide by zero")
+    return a / b
